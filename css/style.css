@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+       font-family: 'Pontano Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+/*Navigation*/
+.navigation{
+	width:100%;
+	height:70px;
+background-color:#598340;
+position:fixed;
+}
+.content{
+width:970px;
+
+margin:0 auto;
+}
+.navigation-links{
+	float:right;
+	font-size: 16px; 
+color: #ffffff; 
+letter-spacing: 0.03em;
+-webkit-font-smoothing: antialiased;
+margin-top:25px;
+
+}
+.navigation-links li{
+	display:inline;
+	margin-left:1.563rem;
+	font-weight:bold;
+	
+}
+.navigation-links li a{
+	color:#ffffff;
+	text-decoration: none;
+	}
+.home
+{
+	background-image:url('../images/cover.jpg');
+	 background-position: center bottom;first-background copy
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+    text-align:center;
+    color:#ffffff;
+    font-family:'Architects Daughter',sans-serif;
+}
+.home h1 {
+    margin-top: 17.5rem;
+    font-size: 4rem;
+    font-weight:500;
+    }
+    .home h2{
+    	font-size:2rem;
+    	font-weight:500;
+    }
+    .home h3{
+    	padding-top:4.25rem;
+    	font-size:1.75rem;
+    }
+    .aboutme,.portfolio{
+font-weight: bold;
+margin-top: 5rem;
+color: #555555;
+}
+.aboutme h2,.portfolio h2{
+	font-size:2.5rem;
+}
+
+.aboutme .info{
+	padding:2rem;
+}
+.works{
+	text-align: center;
+}
+.works>li{
+	list-style: none;
+	padding-top:5rem;
+
+}
+.portfolio .works > li:hover{
+	width:100%;
+	height:100%;
+}
+.caption{
+	margin-top:5rem;
+	font-size:1.5rem;
+}
+social hr {
+border: 0;
+border-top: 1px solid #555555;
+margin: 1.313rem 0;
+}
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+   	margin-top:5rem;
+}
+.social h5{
+	padding-top:5rem;
+}
+.social .icons > li {
+    border-radius: 2.5rem/2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #555555;
+    padding: 0.625rem 0;
+    text-align: center;
+    color:#000000;
+}
+.social .icons > li a:hover{
+color:#ffffff;
+background-color:#555555;
+}
+.social .icons > li:hover{
+color:#ffffff;
+background-color:#555555;
+}
+.social .content h5 a{
+	color:#555555;
+	font-weight:bold;
+	text-decoration:none;
+}
