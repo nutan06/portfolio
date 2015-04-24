@@ -124,7 +124,7 @@ margin: 1.313rem 0;
 .social .icons > li {
     border-radius: 2.5rem/2.5rem;
     width: 2.5rem;
-    height: 2.5rem;
+   /* height: 2.5rem;*/
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #555555;
