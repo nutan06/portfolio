@@ -5,9 +5,14 @@
 	<title>Portfolio</title>
 	
 	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Pontano+Sans" rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
-	
+	<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
 <nav class="navigation">
@@ -44,14 +49,14 @@
 <section class="portfolio"><a name="portfolio"></a>
 <div class="content">
 	<h2>Portfolio</h2>
-	<ul class="works">
+	<ul class="works" >
 		<li class="topics">
 			<h2>Photoshop</h2>
 			<ul>
-			<li  class="example">
+			<li  class="example  col-md-6">
 			<img src="images/timeline_3.jpg" alt="timeline-1" width="70%">
 			</li>
-			<li class="example">
+			<li class="example  col-md-6">
 			<img src="images/filmstrip_2_ver3.png" alt="Quiz" width="70%">
 			</li>
 		</li>
@@ -65,14 +70,14 @@
 		<li class="topics">
 			<h2>Jquery</h2>
 			<ul>
-			<li class="example">
+			<li class="example  col-md-6">
 			<a href="https://nutan06.github.io/shopping-list/index.html" target="_blank">
 			<img src="images/shopping-list.jpg" alt="Shopping-list" width="70%">
 			<div class="caption">
 				Shopping List
 			</div>
 			</li>
-			<li class="example">
+			<li class="example  col-md-6">
 			<a href="https://nutan06.github.io/quizz/quiz.html" target="_blank">
 			<img src="images/quiz.jpg" alt="Quiz" width="70%"></a>
 			<div class="caption">
@@ -104,7 +109,7 @@
 		</li>
 		<li class="topics">
 			<h2>Angular</h2>
-			<li class="example">
+			<li class="example  col-md-6">
 			<a href="https://nutan06.github.io/ngMadlibs/index.html" target="_blank">
 			<img src="images/ngMadlibs.jpg" alt="mywebsite" width="70%"></a>
 			<div class="caption">
@@ -112,34 +117,55 @@
 			</div>
 			</li>
 
-			<li class="example">
+			<li class="example  col-md-6">
+			<a href="http://nutan06.github.io/multiplication-table/index.html" target="_blank">
+			<img src="images/multiplication-table.jpg" alt="mywebsite" width="70%"></a>
+			<div class="caption">
+				Angular app for multiplication table
+			</div>
+			</li>
+			<li class="example  col-md-6">
+			<a href="http://nutan06.github.io/Angular-shoppinglist/index.html" target="_blank">
+			<img src="images/Angularshopping-list.jpg" alt="mywebsite" width="70%"></a>
+			<div class="caption">
+				Shopping list showcasing data-binding
+			</div>
+			</li>
+			<li class="example  col-md-6">
 			<a href="http://nutan06.github.io/waitstaff-claculator/index.html#/detail" target="_blank">
 			<img src="images/waitstaff-cal.jpg" alt="mywebsite" width="70%"></a>
 			<div class="caption">
 				Angular app showcasing routing
 			</div>
 			</li>
-				<li class="example">
+				<li class="example  col-md-6">
 			<a href="http://nutan06.github.io/instasearch/index.html" target="_blank">
 			<img src="images/Instagramsearch.jpg" alt="mywebsite" width="70%"></a>
 			<div class="caption">
-				Creating custom built directive
+				Working with API
 			</div>
 			</li>
 
-			<li class="example">
+			<li class="example  col-md-6">
 			<a href="http://nutan06.github.io/countries-capitals/app/index.html#/home" target="_blank">
 			<img src="images/countries-capitals.jpg" alt="mywebsite" width="70%"></a>
 			<div class="caption">
-				Angular app showcasing routing,ng-animate,XHR and testing
+				Routing,ng-animate,XHR and testing
 			</div>
 			</li>
 
-			<li class="example">
+			<li class="example  col-md-6">
 			<a href="http://nutan06.github.io/directive-form/" target="_blank">
 			<img src="images/directive.jpg" alt="mywebsite" width="70%"></a>
 			<div class="caption">
 				Creating custom built directive
+			</div>
+			</li>
+			<li class="example  col-md-6">
+			<a href="http://nutan06.github.io/editable-content/index.html" target="_blank">
+			<img src="images/attribute-directive.jpg" alt="mywebsite" width="70%"></a>
+			<div class="caption">
+				Creating custom built directive as an attribute
 			</div>
 			</li>
 		</li>
@@ -148,7 +174,7 @@
 
 	
 </section>
-<footer class="social">
+<footer class="social col-md-12">
     <div class="content">
     <hr>
     <h5>Contact me </h5>
